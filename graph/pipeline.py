@@ -4,7 +4,7 @@ from agents.search_agent import search_agent
 from agents.summarizer_agent import summarize
 from agents.report_writer import write_report
 
-# State — ye dictionary hai jo poore pipeline mein data carry karegi
+
 class ResearchState(TypedDict):
     topic: str
     search_results: list
